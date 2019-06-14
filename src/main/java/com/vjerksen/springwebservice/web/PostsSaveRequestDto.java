@@ -11,6 +11,9 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 public class PostsSaveRequestDto {
+
+    // EXAM
+    /*
     private String title;
     private String content;
     private String author;
@@ -22,5 +25,7 @@ public class PostsSaveRequestDto {
                 .author(author)
                 .build();
     }
+     */
+
 
 }

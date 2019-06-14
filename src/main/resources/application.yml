@@ -2,3 +2,10 @@ spring:
   h2:
     console:
       enabled: true
+
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://hackerton-project-new.c7dzcspfeegh.ap-northeast-2.rds.amazonaws.com:3306/hackerton_project
+    username: root
+    password: root1234
+    #validationQuery: SELECT 1
