@@ -1,7 +1,6 @@
 package com.vjerksen.springwebservice.domain.posts;
 
 
-import javafx.scene.chart.ChartBuilder;
 import lombok.*;
 
 import javax.persistence.Column;
