@@ -14,6 +14,12 @@ import javax.persistence.Id;
 @Entity
 public class Posts{
 
+
+
+
+
+    
+
     @Id
     @GeneratedValue
     private Long id;
