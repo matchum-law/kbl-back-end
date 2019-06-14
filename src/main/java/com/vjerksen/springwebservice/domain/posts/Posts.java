@@ -16,10 +16,6 @@ public class Posts{
 
 
 
-
-
-    
-
     @Id
     @GeneratedValue
     private Long id;
