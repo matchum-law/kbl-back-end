@@ -12,7 +12,7 @@ import java.util.*;
 
 @RestController
 @AllArgsConstructor
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "http://192.168.0.90:3000")
 public class KblRestController {
 
     private KblPlayerRepository kblPlayerRepository;
