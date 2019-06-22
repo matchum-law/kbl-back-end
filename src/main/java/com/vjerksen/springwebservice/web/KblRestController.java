@@ -12,7 +12,7 @@ import java.util.*;
 
 @RestController
 @AllArgsConstructor
-@CrossOrigin(origins = "http://192.168.0.90:3000")
+
 public class KblRestController {
 
     private KblPlayerRepository kblPlayerRepository;
@@ -24,6 +24,7 @@ public class KblRestController {
         return "hello world!";
     }
 
+    @CrossOrigin(origins = "http://192.168.0.90:3000")
     @GetMapping(path = "/kbl_player")
     public List<KblPlayer> getAllPosts() {
         System.out.println("connection");
