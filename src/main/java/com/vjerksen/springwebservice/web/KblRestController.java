@@ -3,7 +3,6 @@ package com.vjerksen.springwebservice.web;
 
 import com.vjerksen.springwebservice.domain.posts.KblPlayer;
 import com.vjerksen.springwebservice.domain.posts.KblPlayerRepository;
-import com.vjerksen.springwebservice.domain.posts.Posts;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
