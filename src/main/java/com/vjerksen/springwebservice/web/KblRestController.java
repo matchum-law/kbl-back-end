@@ -7,6 +7,7 @@ import com.vjerksen.springwebservice.domain.posts.Posts;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import java.util.*;
 
@@ -17,8 +18,16 @@ public class KblRestController {
 
     private KblPlayerRepository kblPlayerRepository;
 
+
+    // Example
+    @RequestMapping(path = "/hello")
+    public String hello(){
+        return "hello world!";
+    }
+
     @GetMapping(path = "/kbl_player")
     public List<KblPlayer> getAllPosts() {
+        System.out.println("connection");
         return kblPlayerRepository.findAll();
     }
 }
