@@ -12,7 +12,7 @@ import java.util.*;
 
 @RestController
 @AllArgsConstructor
-@CrossOrigin("*")
+@CrossOrigin(origins = "*")
 public class KblRestController {
 
     private KblPlayerRepository kblPlayerRepository;
