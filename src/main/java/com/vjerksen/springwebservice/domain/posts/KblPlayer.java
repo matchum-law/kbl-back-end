@@ -17,6 +17,7 @@ import java.io.Serializable;
 public class KblPlayer {
     @Id
     private Long id;
+    
     @Column
     private Long p_uni_num; // 1
 
