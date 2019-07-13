@@ -1,0 +1,20 @@
+language: java
+
+jdk :
+  - openjdk8
+
+branches:
+  only:
+    - master
+
+cache:
+  directories:
+    - '$HOME/.m2/repository'
+    - '$HOEM/.graddle'
+
+script: "./gradlew clean build"
+
+notifications:
+  email:
+    recipients:
+      - md040207@gmail.com
